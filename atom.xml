@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[EricaBraunovan.ca]]></title>
+  <link href="http://ericabraunovan.ca/atom.xml" rel="self"/>
+  <link href="http://ericabraunovan.ca/"/>
+  <updated>2014-08-31T11:28:10-04:00</updated>
+  <id>http://ericabraunovan.ca/</id>
+  <author>
+    <name><![CDATA[EricaBraunovanForSchoolBoardTrustee]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
