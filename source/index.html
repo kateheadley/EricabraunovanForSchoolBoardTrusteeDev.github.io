@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h1>Elect Erica Braunovan</h1> 
+
+<div>
+Ottawa-Carleton School Board Trustee<br />
+Zone 10 – Somerset and Kitchissippi<br />
+A partner in your child’s education and future. <br />
+</div>
+
+<a href="about-erica">Meet Erica</a> |
+<a href="get-involved">Get Involved</a> |
+<a href="contact">Talk To Us</a>
+
+{% assign index = true %}
+<div itemscope itemtype="http://schema.org/Blog">
+{% for post in paginator.posts %}
+{% assign content = post.content %}
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">{% include article.html %}</article>
+{% endfor %}
+</div>
+<nav id="pagenavi">
+    {% if paginator.previous_page %}
+        <a href="{{paginator.previous_page}}" class="prev">Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+        <a href="{{paginator.next_page}}" class="next">Next</a>
+    {% endif %}
+    <div class="center"><a href="{{ root_url }}/blog/archives">Blog Archives</a></div>
+</nav>
