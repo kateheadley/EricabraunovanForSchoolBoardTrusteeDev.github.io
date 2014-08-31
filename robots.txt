@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://ericabraunovan.ca/sitemap.xml 
+Sitemap: http://EricabraunovanForSchoolBoardTrusteeDev.github.io/sitemap.xml 
